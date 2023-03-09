@@ -7,5 +7,32 @@ Thumbs.db
 /public/
 /resources/
 .vscode/
+
+data
 *.csv
 *.zip
+
+# System files
+.Spotlight-V100
+.Trashes
+.python-version
+.idea/
+# generated files
+*.o
+*.pyc
+*.so
+.ipynb_checkpoints/
+*.pkl
+__pycache__
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Installation files
+build/
+dist/
+*.egg-info/
+
