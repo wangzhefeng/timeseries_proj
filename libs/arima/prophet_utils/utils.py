@@ -20,44 +20,8 @@ import sys
 
 # global variable
 LOGGING_LABEL = __file__.split('/')[-1][:-3]
-GLOBAL_VARIABLE = None
 
 
-def func():
-    pass
-
-
-class DemoClass:
-    """
-    类说明文档
-    """
-    _class_config_param = None  # 类私有不变量
-    
-    def __init__(self, id_):
-        self.id = id_
-        self.param_a = None  # 类公开变量
-        self._internal_param = None  # 类私有变量
-    
-    def ClassDemoFunc(self):
-        """
-        类普通方法
-        """
-        pass
-    
-    def _ClassPrivateFunc(self):
-        """
-        类私有方法
-        """
-        pass
-
-
-class _PrivateDemoClass:
-    """
-    私有类
-    """
-    
-    def __init__(self):
-        pass
 
 
 
